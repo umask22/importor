@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Impostor (Pasa el Dispositivo)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>🕵️ El Impostor</h1>
+
+        <section id="inicio" class="screen">
+            <p>Introduce el nombre de los jugadores, separados por comas:</p>
+            <textarea id="lista-jugadores" rows="4" placeholder="Ej: Ana, Pedro, Sofía, Juan"></textarea>
+            <button onclick="configurarJuego()">Comenzar Asignación</button>
+        </section>
+
+        <section id="asignacion" class="screen hidden">
+            <h2 id="jugador-actual"></h2>
+            <p>¡Tómalo tú solo! Presiona para ver tu palabra/rol.</p>
+            <button id="mostrar-btn" onclick="mostrarPalabra()">Ver mi Rol</button>
+            
+            <div id="contenido-rol" class="hidden">
+                <p>Tu rol es:</p>
+                <h3 id="rol-palabra-display"></h3>
+                <button onclick="siguienteJugador()">¡Listo! Pasárselo al siguiente</button>
+            </div>
+        </section>
+
+        <section id="juego" class="screen hidden">
+            <h2>¡A Debatir!</h2>
+            <div id="temporizador">5:00</div>
+            
+            <p>Jugadores:</p>
+            <ul id="lista-jugadores-debate"></ul>
+            
+            <p>Comiencen a dar pistas de su palabra, uno a la vez.</p>
+            <p>El Impostor no conoce la palabra.</p>
+            <button onclick="detenerTemporizador()">Detener Debate y Votar</button>
+        </section>
+
+        <section id="resultados" class="screen hidden">
+            <h2>Resultados</h2>
+            <p id="impostor-revelado"></p>
+            <button onclick="window.location.reload()">Nuevo Juego</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
