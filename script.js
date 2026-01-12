@@ -1,7 +1,7 @@
 // --- DATOS DEL JUEGO ---
 const PALABRAS_SECRETAS = [
-    "Plátano", "Avión", "Doctor", "Piscina", "Bosque", "Hamburguesa",
-    "Guitarra", "Universo", "Diamante", "Volcán", "Cafetera"
+    "Avión", "Doctor", "Piscina", "Bosque", "Hamburguesa",
+    "Guitarra", "Universo", "Diamante", "Volcán", "Cafetera", ​"Asado", "Colectivo", "Fernet", "Obelisco", "Chori", "Laburo", "Siesta", "Boliche", "Mate", "Vereda", "Bondi", "Gauchada", "Pibe", "Quilombo", "Truco", "Facturas", "Subte", "Guita", "Milanesa", "Chabón", "Birra", "Quiosco", "Rancho", "Flechazo", "Cachengue", "Quincho", "Picada", "Chamuyo", "Gamba", "Boludo", "Alfajor", "Patio", "Zarpado", "Cancha", "Gira", "Manaos", "Empanada", "Tacho", "Bombilla", "Pelotero", "Sifón", "Posta", "Facha", "Morfi", "Laberinto", "Bondiola", "Chorra", "Fiaca", "Piola", "Trucho", "Peaje", "Pelopincho", "Remise", "Tereré", "Minuta", "Yaguareté", "Carancho", "Carpincho", "Hornero", "Mulita", "Yacaré", "Gato", "Perro", "Pichicho", "Loro", "Cotorra", "Tero", "Vizcacha", "Guanaco", "Puma", "Ñandú", "Pingüino", "Ballena", "Yegua", "Ternero", "Ciruja", "Kiosquero", "Canillita", "Trapito", "Changuito", "Sánguche", "Salamín", "Pastafrola", "Churros", "Medialunas", "Vigilante", "Bola de fraile", "Torta frita", "Mate cocido", "Soda", "Gaseosa", "Pinta", "Previa", "Bailanta", "Potrero", "Pelota", "Botines", "Casaca", "Arquero", "Patovica"
 ];
 
 let jugadores = [];
